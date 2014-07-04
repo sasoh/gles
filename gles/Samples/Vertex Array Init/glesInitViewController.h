@@ -1,6 +1,6 @@
 //
 //  glesInitViewController.h
-//  ch1_init
+//  gles
 //
 //  Created by Alexander Popov on 7/1/14.
 //  Copyright (c) 2014 ---. All rights reserved.

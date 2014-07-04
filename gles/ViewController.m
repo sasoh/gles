@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "glesInitViewController.h"
+#import "glesInitMiscViewController.h"
 
 @interface ViewController ()
 
@@ -16,21 +18,25 @@
 
 - (void)viewDidLoad
 {
+    
     [super viewDidLoad];
 
     _items = @[
-               @"Vertex array init & draw"
+               @"VA init & draw",
+               @"OO VA init & draw"
                ];
 
     [[[self navigationController] navigationBar] setTranslucent:NO];
-    [self setTitle:@"Demos"];
+    [self setTitle:@"Samples"];
     
 }
 
 - (void)didReceiveMemoryWarning
 {
+    
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+    
 }
 
 #pragma mark -
@@ -50,6 +56,21 @@
     [[cell textLabel] setText:_items[[indexPath row]]];
     
     return cell;
+    
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    
+    NSInteger index = [indexPath row];
+   
+    UIViewController *vc = nil;
+    if (index == 0) {
+        vc = [[glesInitViewController alloc] init];
+    } else if (index == 1) {
+        vc = [[glesInitMiscViewController alloc] init];
+    }
+    [[self navigationController] pushViewController:vc animated:YES];
     
 }
 

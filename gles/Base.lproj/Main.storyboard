@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="Mwl-oo-AgO">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="Mwl-oo-AgO">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
@@ -28,9 +28,6 @@
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="69"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
-                                        <connections>
-                                            <segue destination="84C-1D-07Q" kind="push" identifier="initSegue" id="Kqk-DG-bYu"/>
-                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
@@ -67,7 +64,7 @@
                 </glkViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ifA-Yo-iNp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1403" y="-33"/>
+            <point key="canvasLocation" x="1389" y="-365"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="C2P-Nn-o1A">
@@ -87,6 +84,27 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uyX-Qz-hFe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="372" y="-33"/>
+        </scene>
+        <!--GLKit View Controller-->
+        <scene sceneID="fT9-20-QbT">
+            <objects>
+                <glkViewController autoresizesArchivedViewToFullSize="NO" preferredFramesPerSecond="30" id="WiI-6n-5Cp" customClass="glesInitViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="C2m-5m-46h"/>
+                        <viewControllerLayoutGuide type="bottom" id="mMj-PP-eUI"/>
+                    </layoutGuides>
+                    <glkView key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="me7-Up-ghU">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <connections>
+                            <outlet property="delegate" destination="WiI-6n-5Cp" id="eJ4-n6-L2L"/>
+                        </connections>
+                    </glkView>
+                    <navigationItem key="navigationItem" id="aWP-R0-UXE"/>
+                </glkViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fTN-wX-c60" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1389" y="361"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

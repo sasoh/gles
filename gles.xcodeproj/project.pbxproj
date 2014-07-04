@@ -16,6 +16,7 @@
 		2DAACC0319671A45000F0270 /* glesInitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DAACC0219671A45000F0270 /* glesInitViewController.m */; };
 		2DAACC0719671A73000F0270 /* AGLKContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DAACC0619671A73000F0270 /* AGLKContext.m */; };
 		2DAACC0A19671B90000F0270 /* AGLKVertexAttribArrayBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DAACC0919671B90000F0270 /* AGLKVertexAttribArrayBuffer.m */; };
+		2DAACC0E19672AA8000F0270 /* glesInitMiscViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DAACC0D19672AA8000F0270 /* glesInitMiscViewController.m */; };
 		2DBFCAEB1963241300309ECD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DBFCAEA1963241300309ECD /* Foundation.framework */; };
 		2DBFCAED1963241300309ECD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DBFCAEC1963241300309ECD /* CoreGraphics.framework */; };
 		2DBFCAEF1963241300309ECD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DBFCAEE1963241300309ECD /* UIKit.framework */; };
@@ -39,6 +40,8 @@
 		2DAACC0619671A73000F0270 /* AGLKContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGLKContext.m; sourceTree = "<group>"; };
 		2DAACC0819671B90000F0270 /* AGLKVertexAttribArrayBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLKVertexAttribArrayBuffer.h; sourceTree = "<group>"; };
 		2DAACC0919671B90000F0270 /* AGLKVertexAttribArrayBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGLKVertexAttribArrayBuffer.m; sourceTree = "<group>"; };
+		2DAACC0C19672AA8000F0270 /* glesInitMiscViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glesInitMiscViewController.h; sourceTree = "<group>"; };
+		2DAACC0D19672AA8000F0270 /* glesInitMiscViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = glesInitMiscViewController.m; sourceTree = "<group>"; };
 		2DBFCAE71963241300309ECD /* gles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DBFCAEA1963241300309ECD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2DBFCAEC1963241300309ECD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -66,6 +69,7 @@
 			children = (
 				2DAACC0419671A56000F0270 /* Misc */,
 				2DAACC0019671A45000F0270 /* Vertex Array Init */,
+				2DAACC0B19672AA8000F0270 /* Vertex Array Init with Misc */,
 			);
 			name = Samples;
 			path = gles/Samples;
@@ -89,6 +93,15 @@
 				2DAACC0919671B90000F0270 /* AGLKVertexAttribArrayBuffer.m */,
 			);
 			path = Misc;
+			sourceTree = "<group>";
+		};
+		2DAACC0B19672AA8000F0270 /* Vertex Array Init with Misc */ = {
+			isa = PBXGroup;
+			children = (
+				2DAACC0C19672AA8000F0270 /* glesInitMiscViewController.h */,
+				2DAACC0D19672AA8000F0270 /* glesInitMiscViewController.m */,
+			);
+			path = "Vertex Array Init with Misc";
 			sourceTree = "<group>";
 		};
 		2DBFCADE1963241300309ECD = {
@@ -212,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DAACC0A19671B90000F0270 /* AGLKVertexAttribArrayBuffer.m in Sources */,
+				2DAACC0E19672AA8000F0270 /* glesInitMiscViewController.m in Sources */,
 				2DAACC0719671A73000F0270 /* AGLKContext.m in Sources */,
 				2D4B339A196717490077F544 /* main.m in Sources */,
 				2DAACC0319671A45000F0270 /* glesInitViewController.m in Sources */,
