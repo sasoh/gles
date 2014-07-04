@@ -8,8 +8,6 @@
 
 #import "glesInitViewController.h"
 
-//static const GLKVector3 
-
 @implementation glesInitViewController
 
 - (void)viewDidLoad
