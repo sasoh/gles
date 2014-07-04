@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D4B338B196717010077F544 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4B338A196717010077F544 /* AppDelegate.m */; };
+		2D4B338D196717090077F544 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D4B338C196717090077F544 /* Images.xcassets */; };
+		2D4B33911967171B0077F544 /* glesInitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4B33901967171B0077F544 /* glesInitViewController.m */; };
+		2D4B3394196717230077F544 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D4B3392196717230077F544 /* Main.storyboard */; };
+		2D4B339A196717490077F544 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4B3398196717490077F544 /* main.m */; };
+		2D4B339D196717510077F544 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2D4B339B196717510077F544 /* InfoPlist.strings */; };
+		2D4B33A0196717580077F544 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4B339F196717580077F544 /* ViewController.m */; };
+		2DBFCAEB1963241300309ECD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DBFCAEA1963241300309ECD /* Foundation.framework */; };
+		2DBFCAED1963241300309ECD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DBFCAEC1963241300309ECD /* CoreGraphics.framework */; };
+		2DBFCAEF1963241300309ECD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DBFCAEE1963241300309ECD /* UIKit.framework */; };
+		2DBFCB331963284800309ECD /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DBFCB321963284800309ECD /* GLKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2D4B3389196717010077F544 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = gles/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		2D4B338A196717010077F544 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = gles/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		2D4B338C196717090077F544 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = gles/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		2D4B338F1967171B0077F544 /* glesInitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glesInitViewController.h; sourceTree = "<group>"; };
+		2D4B33901967171B0077F544 /* glesInitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = glesInitViewController.m; sourceTree = "<group>"; };
+		2D4B3393196717230077F544 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = gles/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		2D4B3396196717490077F544 /* gles-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "gles-Info.plist"; path = "gles/gles-Info.plist"; sourceTree = SOURCE_ROOT; };
+		2D4B3397196717490077F544 /* gles-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "gles-Prefix.pch"; path = "gles/gles-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		2D4B3398196717490077F544 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = gles/main.m; sourceTree = SOURCE_ROOT; };
+		2D4B339C196717510077F544 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = gles/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		2D4B339E196717580077F544 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = gles/ViewController.h; sourceTree = SOURCE_ROOT; };
+		2D4B339F196717580077F544 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = gles/ViewController.m; sourceTree = SOURCE_ROOT; };
+		2DBFCAE71963241300309ECD /* gles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gles.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DBFCAEA1963241300309ECD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2DBFCAEC1963241300309ECD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2DBFCAEE1963241300309ECD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2DBFCB321963284800309ECD /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DBFCAE41963241300309ECD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DBFCB331963284800309ECD /* GLKit.framework in Frameworks */,
+				2DBFCAED1963241300309ECD /* CoreGraphics.framework in Frameworks */,
+				2DBFCAEF1963241300309ECD /* UIKit.framework in Frameworks */,
+				2DBFCAEB1963241300309ECD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D4B338E1967171B0077F544 /* Samples */ = {
+			isa = PBXGroup;
+			children = (
+				2D4B338F1967171B0077F544 /* glesInitViewController.h */,
+				2D4B33901967171B0077F544 /* glesInitViewController.m */,
+			);
+			name = Samples;
+			path = gles/Samples;
+			sourceTree = SOURCE_ROOT;
+		};
+		2DBFCADE1963241300309ECD = {
+			isa = PBXGroup;
+			children = (
+				2DBFCAF01963241300309ECD /* GLES */,
+				2DBFCAE91963241300309ECD /* Frameworks */,
+				2DBFCAE81963241300309ECD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2DBFCAE81963241300309ECD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DBFCAE71963241300309ECD /* gles.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2DBFCAE91963241300309ECD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2DBFCB321963284800309ECD /* GLKit.framework */,
+				2DBFCAEA1963241300309ECD /* Foundation.framework */,
+				2DBFCAEC1963241300309ECD /* CoreGraphics.framework */,
+				2DBFCAEE1963241300309ECD /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2DBFCAF01963241300309ECD /* GLES */ = {
+			isa = PBXGroup;
+			children = (
+				2D4B3389196717010077F544 /* AppDelegate.h */,
+				2D4B338A196717010077F544 /* AppDelegate.m */,
+				2D4B338C196717090077F544 /* Images.xcassets */,
+				2D4B3392196717230077F544 /* Main.storyboard */,
+				2D4B338E1967171B0077F544 /* Samples */,
+				2DBFCAF11963241300309ECD /* Supporting Files */,
+				2D4B339E196717580077F544 /* ViewController.h */,
+				2D4B339F196717580077F544 /* ViewController.m */,
+			);
+			name = GLES;
+			path = ch1_init;
+			sourceTree = "<group>";
+		};
+		2DBFCAF11963241300309ECD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D4B339B196717510077F544 /* InfoPlist.strings */,
+				2D4B3396196717490077F544 /* gles-Info.plist */,
+				2D4B3397196717490077F544 /* gles-Prefix.pch */,
+				2D4B3398196717490077F544 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2DBFCAE61963241300309ECD /* gles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DBFCB191963241300309ECD /* Build configuration list for PBXNativeTarget "gles" */;
+			buildPhases = (
+				2DBFCAE31963241300309ECD /* Sources */,
+				2DBFCAE41963241300309ECD /* Frameworks */,
+				2DBFCAE51963241300309ECD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gles;
+			productName = ch1_init;
+			productReference = 2DBFCAE71963241300309ECD /* gles.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2DBFCADF1963241300309ECD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "---";
+			};
+			buildConfigurationList = 2DBFCAE21963241300309ECD /* Build configuration list for PBXProject "gles" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2DBFCADE1963241300309ECD;
+			productRefGroup = 2DBFCAE81963241300309ECD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2DBFCAE61963241300309ECD /* gles */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DBFCAE51963241300309ECD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D4B3394196717230077F544 /* Main.storyboard in Resources */,
+				2D4B339D196717510077F544 /* InfoPlist.strings in Resources */,
+				2D4B338D196717090077F544 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DBFCAE31963241300309ECD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D4B339A196717490077F544 /* main.m in Sources */,
+				2D4B33911967171B0077F544 /* glesInitViewController.m in Sources */,
+				2D4B338B196717010077F544 /* AppDelegate.m in Sources */,
+				2D4B33A0196717580077F544 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2D4B3392196717230077F544 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D4B3393196717230077F544 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2D4B339B196717510077F544 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D4B339C196717510077F544 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2DBFCB171963241300309ECD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2DBFCB181963241300309ECD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2DBFCB1A1963241300309ECD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "gles/gles-Prefix.pch";
+				INFOPLIST_FILE = "gles/gles-Info.plist";
+				PRODUCT_NAME = gles;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2DBFCB1B1963241300309ECD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "gles/gles-Prefix.pch";
+				INFOPLIST_FILE = "gles/gles-Info.plist";
+				PRODUCT_NAME = gles;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2DBFCAE21963241300309ECD /* Build configuration list for PBXProject "gles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DBFCB171963241300309ECD /* Debug */,
+				2DBFCB181963241300309ECD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DBFCB191963241300309ECD /* Build configuration list for PBXNativeTarget "gles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DBFCB1A1963241300309ECD /* Debug */,
+				2DBFCB1B1963241300309ECD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2DBFCADF1963241300309ECD /* Project object */;
+}
