@@ -21,6 +21,8 @@
 		2DBFCAED1963241300309ECD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DBFCAEC1963241300309ECD /* CoreGraphics.framework */; };
 		2DBFCAEF1963241300309ECD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DBFCAEE1963241300309ECD /* UIKit.framework */; };
 		2DBFCB331963284800309ECD /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DBFCB321963284800309ECD /* GLKit.framework */; };
+		2DFF049E196C672C00D4E3CB /* glesInitTextureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF049D196C672C00D4E3CB /* glesInitTextureViewController.m */; };
+		2DFF04A1196C697800D4E3CB /* texture_sample.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2DFF04A0196C697800D4E3CB /* texture_sample.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +49,9 @@
 		2DBFCAEC1963241300309ECD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		2DBFCAEE1963241300309ECD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2DBFCB321963284800309ECD /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		2DFF049C196C672C00D4E3CB /* glesInitTextureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glesInitTextureViewController.h; sourceTree = "<group>"; };
+		2DFF049D196C672C00D4E3CB /* glesInitTextureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = glesInitTextureViewController.m; sourceTree = "<group>"; };
+		2DFF04A0196C697800D4E3CB /* texture_sample.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = texture_sample.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,9 +72,11 @@
 		2D4B338E1967171B0077F544 /* Samples */ = {
 			isa = PBXGroup;
 			children = (
+				2DFF049F196C697800D4E3CB /* Resources */,
 				2DAACC0419671A56000F0270 /* Misc */,
 				2DAACC0019671A45000F0270 /* Vertex Array Init */,
 				2DAACC0B19672AA8000F0270 /* Vertex Array Init with Misc */,
+				2DFF049B196C672C00D4E3CB /* Simple Texture */,
 			);
 			name = Samples;
 			path = gles/Samples;
@@ -159,6 +166,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		2DFF049B196C672C00D4E3CB /* Simple Texture */ = {
+			isa = PBXGroup;
+			children = (
+				2DFF049C196C672C00D4E3CB /* glesInitTextureViewController.h */,
+				2DFF049D196C672C00D4E3CB /* glesInitTextureViewController.m */,
+			);
+			path = "Simple Texture";
+			sourceTree = "<group>";
+		};
+		2DFF049F196C697800D4E3CB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2DFF04A0196C697800D4E3CB /* texture_sample.jpg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -214,6 +238,7 @@
 				2D4B3394196717230077F544 /* Main.storyboard in Resources */,
 				2D4B339D196717510077F544 /* InfoPlist.strings in Resources */,
 				2D4B338D196717090077F544 /* Images.xcassets in Resources */,
+				2DFF04A1196C697800D4E3CB /* texture_sample.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DAACC0A19671B90000F0270 /* AGLKVertexAttribArrayBuffer.m in Sources */,
+				2DFF049E196C672C00D4E3CB /* glesInitTextureViewController.m in Sources */,
 				2DAACC0E19672AA8000F0270 /* glesInitMiscViewController.m in Sources */,
 				2DAACC0719671A73000F0270 /* AGLKContext.m in Sources */,
 				2D4B339A196717490077F544 /* main.m in Sources */,

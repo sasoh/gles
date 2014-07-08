@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "glesInitViewController.h"
 #import "glesInitMiscViewController.h"
+#import "glesInitTextureViewController.h"
 
 @interface ViewController ()
 
@@ -23,7 +24,8 @@
 
     _items = @[
                @"VA init & draw",
-               @"OO VA init & draw"
+               @"OO VA init & draw",
+               @"Texture display"
                ];
 
     [[[self navigationController] navigationBar] setTranslucent:NO];
@@ -65,11 +67,15 @@
     NSInteger index = [indexPath row];
    
     UIViewController *vc = nil;
+    
     if (index == 0) {
         vc = [[glesInitViewController alloc] init];
     } else if (index == 1) {
         vc = [[glesInitMiscViewController alloc] init];
+    } else if (index == 2) {
+        vc = [[glesInitTextureViewController alloc] init];
     }
+    
     [[self navigationController] pushViewController:vc animated:YES];
     
 }
